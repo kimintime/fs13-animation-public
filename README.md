@@ -4,4 +4,4 @@ In this exercise I attempted to animate a ferris wheel. It's not 100% what I'd w
 
 ## Instructions
 
-Follow the link to, to see it in action.
+Follow the link to https://kimintime.github.io/fs13-animation-public/, to see it in action.
