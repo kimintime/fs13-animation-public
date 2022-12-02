@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.container-backdrop {
+    background-color: rgb(135,206,235, .25);
+    display: inline-block;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 25px;
+    animation: container 25s ease-in infinite;
+}
+
+#wheel {
+    animation: wheel 10s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#car-1 {
+    animation: car 10s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#car-2 {
+    animation: car 10s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#car-3 {
+    animation: car 10s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#car-4 {
+    animation: car 10s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#car-5 {
+    animation: car 10s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#car-6 {
+    animation: car 10s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#car-7 {
+    animation: car 10s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#car-8 {
+    animation: car 10s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#balloons {
+    animation: balloons 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+
+@keyframes container {
+    from {
+        background-color: rgb(135,206,235, .25); ;
+    }
+
+    to {
+        background-color: rgb(12, 20, 69, .45);
+    }
+    
+}
+
+@keyframes balloons {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateX(20deg);
+    }
+}
+
+@keyframes wheel {
+    from {
+        transform: rotateZ(0deg);
+    }
+     to {
+        transform: rotateZ(360deg);
+     }
+}
+
+@keyframes car {
+    from {
+        transform: rotateZ(0deg);
+    }
+     to {
+        transform: rotateZ(360deg);
+     }
+}
+
+
